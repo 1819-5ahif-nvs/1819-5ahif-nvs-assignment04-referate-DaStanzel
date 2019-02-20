@@ -1,0 +1,8 @@
+{
+  "realm": "user",
+  "bearer-only": true,
+  "auth-server-url": "http://localhost:8180/auth",
+  "ssl-required": "external",
+  "resource": "bookshop",
+  "principal-attribute": "in130056"
+}
