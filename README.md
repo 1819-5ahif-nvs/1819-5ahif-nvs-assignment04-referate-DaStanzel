@@ -1,4 +1,4 @@
-# `Keycloack
+# `Keycloak
 
 ## web.xml
 <login-config>
