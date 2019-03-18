@@ -52,7 +52,7 @@ In Java muss man in der web.xml einige dinge eintragen:
 
 Und mann muss sich eine keycloak.json Datei schreiben in der man folgende Dinge einträgt.
 
-´´´
+```
 {
   "realm": "user",
   "bearer-only": true,
@@ -64,8 +64,8 @@ Und mann muss sich eine keycloak.json Datei schreiben in der man folgende Dinge 
 ```
 Das letzte was zu tun ist ist, uns einen AccessTokenProducer zu Schreiben. Dieser ist sehr simpel. Im unten gezeigten Codesample findet ihr einen fertigen TokenProducer.
 
-´´´
 
+```
 @RequestScoped
 public class AccessTokenProducer {
 
