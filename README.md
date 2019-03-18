@@ -1,13 +1,13 @@
-# `<Thema des Referats>`
+# `Keycloak
 
-## Beispiel 1
+## web.xml
+<login-config>
+        <auth-method>KEYCLOAK</auth-method>
+        <realm-name>user</realm-name>
+        </login-config>
 
-- Kurze Beschreibung
-- Status der Ausarbeitung: funktiniert, funktioniert nicht, weil, ...
-- Wie kann das Beispiel gestartet werden? `mvn package`, gefolgt von ... 
-- URIs des REST-Endpoints
 
-## Beispiel 2
+Access Token abrufen
 
 ...
 
